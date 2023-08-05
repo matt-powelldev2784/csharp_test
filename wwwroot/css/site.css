@@ -1,0 +1,62 @@
+﻿body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+/*    border: 1px solid green;*/
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98vw;
+    margin: 8px auto;
+}
+
+.header__logo {
+    height: 50px;
+    width: auto;
+}
+
+.header__h1{
+max-width: 310px;
+font-size: x-large;
+overflow: hidden;
+}
+
+.sims__header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 32px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80vw;
+    margin-top: 32px;
+}
+
+.sims__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 32px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.sims__text{
+    width: 120px;
+}

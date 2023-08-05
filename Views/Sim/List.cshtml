@@ -1,0 +1,18 @@
+﻿
+@model IEnumerable<Real_Digital_Sim_Stock.Models.Sim>
+
+<article class="sims__header">
+    <p class="sims__text">SupplierName</p>
+    <p class="sims__text">SSN</p>
+    <p class="sims__text">isActivated</p>
+</article>
+
+ @foreach(var sim in Model)
+{
+<article class="sims__flex">
+    <p class="sims__text">@sim.SupplierName</p>
+    <p class="sims__text">@sim.Ssn.ToString()</p>
+    <p class="sims__text">@sim.IsActivated</p>
+</article>
+}
+
